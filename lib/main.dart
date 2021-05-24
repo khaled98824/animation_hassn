@@ -1,8 +1,13 @@
 import 'dart:math';
-
+import 'package:animation_hassn/AnimatedAlign.dart';
+import 'package:animation_hassn/Animated_Positioned.dart';
 import 'package:flutter/material.dart';
 
-void main() => runApp(AnimatedContainerApp());
+import 'AnimatedPadding.dart';
+
+void main() => runApp(MaterialApp(
+  home: AnimatedAlginH(),
+));
 
 class AnimatedContainerApp extends StatefulWidget {
   @override

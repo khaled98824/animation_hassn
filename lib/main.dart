@@ -7,10 +7,12 @@ import 'AlignTransition.dart';
 import 'AnimatedPadding.dart';
 import 'AnimatedBuilder.dart';
 import 'ExplicitAnimation.dart';
+import 'HeroAnimation.dart';
+import 'Login_Screen_Animation.dart';
 import 'TweenAnimation.dart';
 
 void main() => runApp(MaterialApp(
-  home: AnimatedBuilderH(),
+  home: LogIn_Up_Screen_Animation(),
 ));
 
 class AnimatedContainerApp extends StatefulWidget {

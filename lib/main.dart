@@ -3,10 +3,14 @@ import 'package:animation_hassn/AnimatedAlign.dart';
 import 'package:animation_hassn/Animated_Positioned.dart';
 import 'package:flutter/material.dart';
 
+import 'AlignTransition.dart';
 import 'AnimatedPadding.dart';
+import 'AnimatedBuilder.dart';
+import 'ExplicitAnimation.dart';
+import 'TweenAnimation.dart';
 
 void main() => runApp(MaterialApp(
-  home: AnimatedAlginH(),
+  home: AnimatedBuilderH(),
 ));
 
 class AnimatedContainerApp extends StatefulWidget {
